@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    border: 5px solid red;
+    height: auto;
+    
+}
+.header{
+    border: 1px solid red;  
+    padding: 30px; 
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/c5bc4f34-9c65-49c0-82cc-80007c369ee1-702-king-s-landing-cersei.avif);
+    background-size: cover;
+}
+#menu ul{
+    display: flex;
+    padding:10px; 
+}
+#menu li{
+    list-style-type: none;
+    margin:5px;
+}
+#menu a{
+    text-decoration: none;
+    color:red;
+    padding:10px;
+}
+#logo{
+    height: 200px;
+    border:1px solid red;
+}
+#logo img{
+    height: 100%;
+    
+}
+.nav{
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    
+}
+.main{
+    border: 1px solid black;
+    width: 99%;
+    height: auto;
+    display: flex;
+    margin:10px;
+    padding:0px;
+    justify-content: center;
+    overflow-y: scroll;
+    flex-direction: row
+    
+}
+.section{
+    border: 1px solid green;
+    width: 50%;
+    padding: 3px;
+    margin: 3px;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+.aside{
+    border: 1px solid black;
+    width: 50%;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.footer{
+    border: 1px solid red;
+    padding: 50px;
+    justify-content: center;
+
+    text-align: center;
+}
